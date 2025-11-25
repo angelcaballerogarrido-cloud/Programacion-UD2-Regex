@@ -1,5 +1,4 @@
-package ejercicioregex1; // El nombre de tu paquete puede variar
-
+package ejercicioregex1; 
 public class EjercicioRegex1 {
 
     public static void main(String[] args) {
@@ -18,7 +17,7 @@ public class EjercicioRegex1 {
         // --- SOLUCIÓN ---
 
         // PASO A: Definir el nombre del médico y su expresión regular
-        String nombreMedico = "Dr. House";
+        String nombreMedico = "Angel";
         // Explicación Regex Médico:
         // \\{        -> Busca una llave de apertura literal
         // (El médico|el médico|Le) -> Busca CUALQUIERA de estas tres opciones exactas
