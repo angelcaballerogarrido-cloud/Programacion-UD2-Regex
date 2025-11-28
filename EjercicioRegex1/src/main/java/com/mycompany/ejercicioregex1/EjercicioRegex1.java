@@ -1,4 +1,4 @@
-package ejercicioregex1; // El nombre de tu paquete puede variar
+package ejercicioregex1; 
 
 public class EjercicioRegex1 {
 
