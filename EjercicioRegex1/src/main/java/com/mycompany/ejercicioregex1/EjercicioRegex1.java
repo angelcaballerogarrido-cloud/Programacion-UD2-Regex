@@ -1,4 +1,4 @@
-package ejercicioregex1; 
+package com.mycompany.ejercicioregex1; 
 
 public class EjercicioRegex1 {
 
