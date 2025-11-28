@@ -12,19 +12,19 @@ public class InterfazManuel {
         initComponents();
     }
 
-    // Método basado en la estructura de la imagen 1
+   
     private static void initComponents() {
-        // 1. Configuración del Frame
+      
         JFrame frame = new JFrame("Login - Expresiones Regulares");
         frame.setSize(500, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // 2. Panel principal y Layout
+     
         JPanel panel = new JPanel();
-        // Usamos GridLayout para organizar filas ordenadas (simple y efectivo)
+    
         panel.setLayout(new GridLayout(6, 2, 10, 10)); 
 
-        // 3. Componentes de la Interfaz
+      
         JLabel lblEmail = new JLabel("Correo Electrónico:");
         JTextField txtEmail = new JTextField();
 
@@ -35,13 +35,13 @@ public class InterfazManuel {
         JTextField txtUser = new JTextField();
 
         JLabel lblPass = new JLabel("Contraseña (minúscula inicial):");
-        // Usamos JTextField normal para ver lo que escribimos al probar regex
+        
         JTextField txtPass = new JTextField(); 
 
         JButton btnLogin = new JButton("Validar / Entrar");
-        JLabel lblResultado = new JLabel(""); // Para mostrar mensajes
+        JLabel lblResultado = new JLabel(""); 
 
-        // 4. Añadir componentes al panel
+      
         panel.add(lblEmail);
         panel.add(txtEmail);
         panel.add(lblUrl);
