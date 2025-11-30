@@ -50,10 +50,10 @@ public class EjercicioRegex2 {
             
            
             
-            // Añadimos la 's' si era plural
+            
             reemplazo = reemplazo + plural;
             
-            // Hacemos el cambio en el buffer
+           
             m.appendReplacement(sb, reemplazo);
         }
         

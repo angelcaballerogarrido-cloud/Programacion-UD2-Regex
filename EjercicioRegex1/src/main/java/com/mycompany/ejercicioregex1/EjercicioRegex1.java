@@ -13,7 +13,7 @@ public class EjercicioRegex1 {
                 + "- No se preocupe, tengo una jaula preparada por si acaso - dice {el médico}. "
                 + "{El médico} le aplica el spray nasal al hombre y este empieza a estornudar...";
 
-        String nombreMedico = "Dr. House";
+        String nombreMedico = "Angrl";
         String regexMedico = "\\{(El médico|el médico|Le)\\}";
 
         
